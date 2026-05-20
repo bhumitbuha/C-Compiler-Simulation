@@ -1,0 +1,26 @@
+# COMPILERS - Grevity Scanner Submission
+
+**Author:** Bhumit Buha
+**Student Number:** 041109070  
+
+## Files Included
+
+- Step1Coder.c, Step1Coder.h
+- Step2Reader.c, Step2Reader.h
+- Step3Scanner.c, Step3Scanner.h
+- Compilers.c, Compilers.h
+- CMakefile.txt
+- cmake-build-debug/CODED.txt (coded file for my language)
+- cmake-build-debug/input.txt (orignal file for my language)
+
+## How to Build and Run
+
+1. Build:
+   - On Windows: run `make` or use your IDE's build button.
+   - On Linux/Mac: `make`
+
+2. Run:
+   - To run scanner:  
+     `cmake-build-debug/compilers 3 Coded.txt`
+   
+

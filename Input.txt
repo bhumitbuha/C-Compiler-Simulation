@@ -1,0 +1,34 @@
+@* Grevity Demo Program *@
+
+set speed = 80;
+set distance = 200;
+set time = distance / speed;
+
+show "Speed is", speed;
+show "Distance is", distance;
+show "Time to travel:", time;
+
+set name = "Bhumit";
+set city = "Ottawa";
+set year = 2025;
+set phrase = "Welcome to Grevity!";
+
+show name;
+show "Hello,", name, "from", city, "!";
+show phrase;
+
+set a = 5;
+set b = a * 2 + 7;
+set c = (a + b) * 3;
+show "Sum of a and b is", a + b;
+show "Value of c is", c;
+
+@* More arithmetic *@
+set tempC = 25;
+set tempF = tempC * 9 / 5 + 32;
+show "Temperature in Fahrenheit:", tempF;
+
+set quote = "Success!";
+show "Final message:", quote, "Year:", year;
+
+@* End of program *@
